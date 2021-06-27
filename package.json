@@ -1,0 +1,22 @@
+{
+  "name": "apollo-mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/apolloServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && (node ./dist/apolloServer.js)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "casual": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.4"
+  }
+}
